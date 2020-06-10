@@ -1,5 +1,7 @@
 module github.com/terraform-providers/terraform-provider-opentelekomcloud
 
+go 1.14
+
 require (
 	github.com/aws/aws-sdk-go v1.22.0
 	github.com/gophercloud/utils v0.0.0-20191129022341-463e26ffa30d

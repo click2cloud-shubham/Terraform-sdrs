@@ -336,6 +336,7 @@ func Provider() terraform.ResourceProvider {
 			"opentelekomcloud_css_cluster_v1":                     resourceCssClusterV1(),
 			"opentelekomcloud_rds_instance_v3":                    resourceRdsInstanceV3(),
 			"opentelekomcloud_rds_parametergroup_v3":              resourceRdsConfigurationV3(),
+			"opentelekomcloud_sdrs_protectedinstance_v1":		   resourceSdrsProtectedinstanceV1(),
 			"opentelekomcloud_sdrs_protectiongroup_v1":            resourceSdrsProtectiongroupV1(),
 			"opentelekomcloud_waf_certificate_v1":                 resourceWafCertificateV1(),
 			"opentelekomcloud_waf_domain_v1":                      resourceWafDomainV1(),
